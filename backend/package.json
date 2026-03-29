@@ -1,0 +1,18 @@
+{
+  "name": "url-shortner-project",
+  "version": "1.0.0",
+  "description": "This project is build for to convert long url into short url.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "shakirwaheed",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.3",
+    "shortid": "^2.2.17"
+  }
+}
